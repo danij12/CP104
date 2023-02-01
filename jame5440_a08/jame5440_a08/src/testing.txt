@@ -1,0 +1,128 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Daniel James
+ID:      210265440
+Email:   jame5440@mylaurier.ca
+Version: 2021-11-29
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter a sentence with no spaces: StopAndSmellTheRoses
+add_spaces('Stop and smell the roses')
+
+Enter a sentence with no spaces: HelloWhatIsYourName
+add_spaces('Hello what is your name')
+
+Enter a sentence with no spaces: WhatClassIsThis
+add_spaces('What class is this')
+
+
+---------------------------------------------------
+t02
+-------------------------------------------------------
+Enter a word: toy
+pluarlize('toy')
+toys
+
+Enter a word: city
+pluarlize('city')
+cities
+
+
+Enter a word: sample
+pluarlize('sample')
+samples
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter a word: running
+Enter a second word: jumping
+common_ending('running', 'jumping')
+'ing'
+
+Enter a word: wool
+Enter a second word: pool
+common_ending('wool', 'pool')
+'ool'
+
+Enter a word: calm
+Enter a second word: balm
+common_ending('calm', 'balm')
+'alm'
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter ISBN: 978-3-12148410--0
+is_valid_isbn('978-3-12148410--0')
+False
+
+Enter ISBN: 978-3-16-148410-0
+is_valid_isbn('978-3-16-148410-0')
+True
+
+Enter ISBN: 892-3-16-1434-0
+is_valid_isbn('892-3-16-1434-0')
+False
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Enter a word (input 0 to end): word
+Enter a word (input 0 to end): chain
+Enter a word (input 0 to end): 0
+['word', 'chain']
+is_word_chain -> False
+
+
+Enter a word (input 0 to end): camel
+Enter a word (input 0 to end): leopard
+Enter a word (input 0 to end): dog
+Enter a word (input 0 to end): giraffe
+Enter a word (input 0 to end): elephant
+Enter a word (input 0 to end): 0
+['camel', 'leopard', 'dog', 'giraffe', 'elephant']
+is_word_chain -> True
+
+
+Enter a word (input 0 to end): hello
+Enter a word (input 0 to end): olive
+Enter a word (input 0 to end): eel
+Enter a word (input 0 to end): land
+Enter a word (input 0 to end): 0
+['hello', 'olive', 'eel', 'land']
+is_word_chain -> True
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+t08
+-------------------------------------------------------
+
+-------------------------------------------------------
+t09
+-------------------------------------------------------
+
+-------------------------------------------------------
+t10
+-------------------------------------------------------
+
+-------------------------------------------------------
+t11
+-------------------------------------------------------
+
+-------------------------------------------------------
+t12
+-------------------------------------------------------
+
+-------------------------------------------------------
+t13
+-------------------------------------------------------
